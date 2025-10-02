@@ -344,4 +344,96 @@ nav a:hover {
 
 ![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/e426f8244cbc96c46f735391d122b4643f66d391/image/2025-10-02%2017_02_00-CSS%20Dasar%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.png)
 
+# TUGAS 
 
+![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/1eee66845d301d2e187c9645517c2fbacc88cb5b/image/TUGAS%20%26%20SOAL%20.png)
+
+# 1. EKSPERIMEN PROPERTI CSS
+
+```
+h1 i {
+  color: #6d6a6b;
+}
+
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  color: #a0522d; 
+  font-size: 18px;
+}
+```
+
+# HASILNYA
+
+![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/f573bda56c05e1b74fbea6459696f0d26ece3559/image/2025-10-02%2017_58_18-CSS%20Dasar%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.png)
+
+# 2. PERBEDAAN h1 {…} dengan #intro h1 {…}
+
+h1 {} = global, semua <h1> di halaman.
+#intro h1 {} = spesifik, hanya <h1> yang ada di dalam elemen dengan id="intro".
+
+```
+<div>
+  <h1>Judul 1 (umum)</h1>
+</div>
+
+<div id="intro">
+  <h1>Judul 2 (khusus di dalam #intro)</h1>
+</div>
+```
+
+```
+h1 {
+  color: red;
+}
+
+#intro h1 {
+  color: green;
+}
+```
+
+# 3. PRIORITAS CSS (Internal, Eksternal, Inline)
+
+Inline CSS (langsung di atribut elemen HTML) → prioritas tertinggi
+Internal CSS (<style> di dalam file HTML) → prioritas menengah
+Eksternal CSS (file .css yang dilink) → prioritas lebih rendah
+
+```
+<head>
+  <!-- Eksternal CSS -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Internal CSS */
+    p { color: blue; }
+  </style>
+</head>
+<body>
+  <p style="color: red;">Teks percobaan</p>
+</body>
+```
+
+# 4. JIKA ELEMEN PUNYA ID & CLASS
+
+Aturan prioritas selector:
+Inline CSS > ID > Class > Elemen
+
+```
+<p id="paragraf-1" class="text-paragraph">Teks uji coba</p>
+```
+
+```
+p {
+  color: black;       /* paling lemah */
+}
+
+.text-paragraph {
+  color: blue;        /* class */
+}
+
+#paragraf-1 {
+  color: green;       /* id lebih kuat */
+}
+```
