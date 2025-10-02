@@ -198,20 +198,20 @@ TAMBAHKAN INTERNAL CSS PADA BAGIAN HEAD DOKUMEN
 
 ```
 nav {
-  background: #20A759;
-  color: #fff;
-  padding: 10px;
+    background: #1809e6;
+    color: #fff;
+    padding: 10px;
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
 nav .active,
 nav a:hover {
-  background: #0B6B3A;
+    background: #1809e6;
 }
 ```
 
@@ -220,52 +220,128 @@ nav a:hover {
 ```
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Dasar</title>
-  <link rel="stylesheet" href="lat2web1.css" type="text/css">
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-    }
-    header {
-      min-height: 80px;
-      border-bottom: 1px solid #77CCEF;
-    }
-    h1 {
-      font-size: 24px;
-      color: #0F189F;
-      text-align: center;
-      padding: 20px 10px;
-    }
-    h1 i {
-      color: #6d6a6b;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Dasar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        header {
+            min-height: 80px;
+            border-bottom: 1px solid #77CCEF;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #0F189F;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        h1 i {
+            color: #6d6a6b;
+        }
+    </style>
 </head>
+
 <body>
-  <header>
-    <h1>CSS Internal dan <i>Inline CSS</i></h1>
-  </header>
+    <header>
+        <h1>CSS Internal dan <i>Inline CSS</i></h1>
+    </header>
 
-  <nav>
-    <a href="lab2_css_dasar.html">CSS Dasar</a>
-    <a href="lab2_css_eksternal.html">CSS Eksternal</a>
-    <a href="lab1_tag_dasar.html">HTML Dasar</a>
-  </nav>
+    <nav>
+        <a href="lab2_css_dasar.html">CSS Dasar</a>
+        <a href="lab2_css_eksternal.html">CSS Eksternal</a>
+        <a href="lab1_tag_dasar.html">HTML Dasar</a>
+    </nav>
 
-  <div id="intro">
-    <h1>Hello World</h1>
-    <p style="text-align: center; color: #cc6d4e;">
-      HALO <b>AFLAH ATHALLAH TAMAM KAPUKONG</b> DENGAN NIM <b>312410280</b> Saya sedang belajar HTML dan CSS dasar, 
-      pada mata kuliah <b>Pemrograman Web 1</b> di <i>Universitas Pelita Bangsa</i>. 
-      Hal pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal 
-      tag-tag dasar HTML dan CSS.
-    </p>
-  </div>
+    <div id="intro">
+        <h1>Hello World</h1>
+        <p style="text-align: center; color: #e6157d;">
+            HALO <b>AFLAH ATHALLAH TAMAM KAPUKONG</b> DENGAN NIM <b>312410280</b> Saya sedang belajar HTML dan CSS
+            dasar,
+            pada mata kuliah <b>Pemrograman Web 1</b> di <i>Universitas Pelita Bangsa</i>.
+            Hal pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal
+            tag-tag dasar HTML dan CSS.
+        </p>
+    </div>
 
-  <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+    <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
 </body>
+
 </html>
 ```
+
+# HASIL YANG TAMPIL DI WEB BROWSER SEBELUM MENGGUNAKAN STYLE CSS
+
+![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/500aadfb5b93a59af5d9efea9047a46c6c5f60ac/image/12025-10-02%2016_44_47-CSS%20Dasar%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.png)
+
+# SETELAH MENGGUNAKAN CSS PADA HTML EKSTERNAL
+
+![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/500aadfb5b93a59af5d9efea9047a46c6c5f60ac/image/22025-10-02%2016_46_50-CSS%20Dasar%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.png)
+
+# 5. MENAMBAHKAN CSS SELECTOR 
+
+```
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #80A1BA;
+    padding: 10px;
+}
+
+nav a {
+    color: #432323;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #432323;
+}
+
+#intro {
+    background: #bebcbd;
+    border: 1px solid #432323;
+    min-height: 200px;
+    padding: 20px;
+}
+
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff !important;
+}
+
+#intro p {
+    color: #fff !important;
+}
+
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #DD0303;
+}
+```
+
+# HASIL DARI HTML MENGGUNAKAN CSS COLECTOR
+
+![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/e426f8244cbc96c46f735391d122b4643f66d391/image/2025-10-02%2017_02_00-CSS%20Dasar%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.png)
+
+
