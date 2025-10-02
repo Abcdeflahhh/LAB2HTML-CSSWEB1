@@ -373,7 +373,7 @@ p {
 # 2. PERBEDAAN h1 {…} dengan #intro h1 {…}
 
 h1 {} = global, semua <h1> di halaman.
-#intro h1 {} = spesifik, hanya <h1> yang ada di dalam elemen dengan id="intro".
+intro h1 {} = spesifik, hanya <h1> yang ada di dalam elemen dengan id="intro".
 
 ```
 <div>
@@ -390,7 +390,7 @@ h1 {
   color: red;
 }
 
-#intro h1 {
+intro h1 {
   color: green;
 }
 ```
