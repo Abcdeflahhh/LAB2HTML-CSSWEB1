@@ -48,7 +48,13 @@ CODE HTML SEPERTI BERIKUT :
 </html>
 ```
 
-GAMBAR HASIL HTML YANG DIJALANKAN PADA BROWSER :
+# CODE HTML DI VSCODE
+
+![GAMBAR](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/a482927d5f8cb1a850e74a526a78fb5d60e08e9a/image/htmlcss2.png)
+
+# GAMBAR HASIL HTML YANG DIJALANKAN PADA BROWSER :
+
+![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/a482927d5f8cb1a850e74a526a78fb5d60e08e9a/image/htmlcss1.png)
 
 # 2. MEMBUAT STYLE UNTUK HTML MENGGUNAKAN CSS
 
@@ -105,6 +111,10 @@ nav a:hover {
   background: #E42A42;
 }
 ```
+
+# HASIL HTML YANG DIBERIKAN STYLE CSS
+
+![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/a482927d5f8cb1a850e74a526a78fb5d60e08e9a/image/2025-10-02%2008_14_57-CSS%20PEMULA%201%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge.png)
 
 
 
