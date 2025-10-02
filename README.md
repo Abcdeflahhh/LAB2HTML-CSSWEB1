@@ -258,9 +258,9 @@ nav a:hover {
   <div id="intro">
     <h1>Hello World</h1>
     <p style="text-align: center; color: #cc6d4e;">
-      SAYA <b>ANDREAN PUTRA ARYA</b> DENGAN NIM <b>312410341</b> kami sedang belajar HTML dan CSS dasar, 
-      pada mata kuliah <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa</i>. 
-      Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal 
+      HALO <b>AFLAH ATHALLAH TAMAM KAPUKONG</b> DENGAN NIM <b>312410280</b> Saya sedang belajar HTML dan CSS dasar, 
+      pada mata kuliah <b>Pemrograman Web 1</b> di <i>Universitas Pelita Bangsa</i>. 
+      Hal pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal 
       tag-tag dasar HTML dan CSS.
     </p>
   </div>
