@@ -50,66 +50,65 @@ CODE HTML SEPERTI BERIKUT :
 
 # CODE HTML DI VSCODE
 
-![GAMBAR](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/a482927d5f8cb1a850e74a526a78fb5d60e08e9a/image/htmlcss2.png)
+![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/a482927d5f8cb1a850e74a526a78fb5d60e08e9a/image/htmlcss1.png)
 
 # GAMBAR HASIL HTML YANG DIJALANKAN PADA BROWSER :
 
-![gambar](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/a482927d5f8cb1a850e74a526a78fb5d60e08e9a/image/htmlcss1.png)
+![GAMBAR](https://github.com/Abcdeflahhh/LAB2HTML-CSSWEB1/blob/a482927d5f8cb1a850e74a526a78fb5d60e08e9a/image/htmlcss2.png)
 
-# 2. MEMBUAT STYLE UNTUK HTML MENGGUNAKAN CSS
+# 2. MEMBUAT STYLE UNTUK HTML MENGGUNAKAN INTERNAL CSS
 
 TAMBAHKAN INTERNAL CSS PADA BAGIAN HEAD DOKUMEN
 ```
-header {
-  text-align: center;
-  margin-bottom: 10px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Dasar</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    header {
+      min-height: 80px;
+      border-bottom: 1px solid #77CCEF;
+    }
+    h1 {
+      font-size: 24px;
+      color: #0F189F;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    h1 i {
+      color: #6d6a6b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CSS Internal dan <i>Inline CSS</i></h1>
+  </header>
+  
+  <nav>
+    <a href="lab2_css_dasar.html">CSS Dasar</a>
+    <a href="lab2_css_eksternal.html">CSS Eksternal</a>
+    <a href="lab1_tag_dasar.html">HTML Dasar</a>
+  </nav>
 
-nav {
-  background: #2ecc71;
-  padding: 10px;
-}
+  <div id="intro">
+    <h1>Hello World</h1>
+    <p>
+      SAYA <b>AFLAH ATHALLAH TAMAM KAPUKONG</b> DENGAN NIM <b>312410280</b> Saya sedang belajar HTML dan CSS dasar, 
+      pada mata kuliah <b>Pemrograman Web 1</b> di <i>Universitas Pelita Bangsa</i>. 
+      Hal pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal 
+      tag-tag dasar HTML dan CSS.
+    </p>
 
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  background: #27ae60;
-}
-
-#intro {
-  background: #418fb1;
-  border: 1px solid #099249;
-  min-height: 200px;
-  padding: 20px;
-}
-
-#intro h1 {
-  text-align: left;
-  border: 0;
-  color: #fff !important;
-}
-
-#intro p {
-  color: #fff !important;
-}
-
-.button {
-  padding: 15px 20px;
-  background: #bebcbd;
-  color: #fff;
-  display: inline-block;
-  margin: 10px 0;
-  text-decoration: none;
-}
-
-.btn-primary {
-  background: #E42A42;
-}
+    <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+  </div>
+</body>
+</html>
 ```
 
 # HASIL HTML YANG DIBERIKAN STYLE CSS
